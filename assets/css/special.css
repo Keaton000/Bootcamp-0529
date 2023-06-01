@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div div {
+  background: #A4CA39;
+  position: relative;
+}
+
+.android {
+  height: 400px;
+  width: 340px;
+}
+
+.head {
+  width: 200px;
+  height: 100px;
+  top: 32px;
+  border-radius: 220px 220px 0 0;
+}
+
+.left_eye,
+.right_eye {
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 42px;
+  border-radius: 100%;
+}
+
+.left_eye {
+  left: 50px;
+}
+
+.right_eye {
+  right: 50px;
+}
+
+.left_antenna,
+.right_antenna {
+  width: 6px;
+  height: 50px;
+  position: absolute;
+  top: -34px;
+  border-radius: 3px;
+}
+
+.left_antenna {
+  left: 50px;
+  transform: rotate(-30deg);
+}
+
+.right_antenna {
+  right: 50px;
+  transform: rotate(30deg);
+}

@@ -1,0 +1,7 @@
+body {
+    background-image: url('../images/pikachu.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px 500px;
+    background-position: right;
+    background-attachment: scroll;
+}

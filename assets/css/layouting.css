@@ -1,0 +1,48 @@
+p {
+    float: left;
+    width: 50%;
+    position: fixed;
+}
+
+img {
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+
+h1 {
+    position: static;
+    left: 50px;
+}
+
+h2 {
+    position: relative;
+    left: 50px;
+}
+
+.parent {
+    width: 250px;
+    height: 150px;
+    border: 1px solid green;
+    position: relative;
+}
+
+.child {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    left: 50%;
+    bottom: 0;
+    position: absolute;
+    z-index: 3;
+}
+
+.child-2 {
+    height: 50px;
+    width: 150px;
+    background-color: yellow;
+    left: 50%;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
+}
